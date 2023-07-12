@@ -1,0 +1,196 @@
+/* green: #67b500; */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    font-size: 16px;
+    
+    
+
+}
+
+.main-wrapper {
+    background-color: #efefef;
+}
+
+
+/* .top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+} */
+.top-nav {
+    width: 80%;
+    margin: 0 auto;
+    
+
+}
+.top-nav-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.material-symbols-outlined {
+    font-size: 16px; 
+    
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+    
+      
+}
+
+.main-nav {
+    background-color: white;
+    width: 100%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    
+}
+
+.main-nav-ul {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.main-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.main-nav li {
+    
+    padding: 10px;
+}
+
+.filters-nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.filters-nav button {
+    background-color: #67b500;
+    color: white;    
+    margin-left: 10px;
+    border: 1px solid black;
+    padding: 10px 30px;
+    
+}
+
+.filters-nav button a {    
+    color: white;
+    text-decoration: none;    
+    font-size: 14px;
+    
+}
+/* Gallery */
+
+.travell-gallery-wrap {
+    margin-top: 20px;    
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+    
+
+}
+
+.travel-card {
+    border: 1px solid black;
+    width: 45%;
+    background-color: white;
+}
+
+.travel-card img {
+    width: 100%;
+}
+
+/* Disclaimer */
+
+.disclaimar-wrap {
+    background-color: white;
+    padding: 10px 20px;
+    margin-top: 20px ;
+}
+
+/* Icon Gallery */
+
+.icon-gallery-wrap {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    margin-top: 20px;
+    
+}
+
+.icon-gallery {
+    font-size: 30px;
+    display: block;
+    color: #67b500;
+}
+
+/* .icon-gallery::before {
+    color: #21acde;
+    content: " | ";
+    /* display: inline-block; */
+/* }  */
+
+.promo-gallery-wrap {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    margin-top: 20px;
+
+}
+
+.icon-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-wrap p {
+    font-size: 12px;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+footer li {
+    list-style: none;
+    text-align: center;
+    margin: 0px;
+}
+
+.footer-col {
+    display:flex;
+    flex-direction: column;
+    width: 15%;
+}
+
+footer h4 {
+    color: #67b500;
+    text-align: center;
+    
+}
+
+.footer-paises {
+    display: flex;
+}
